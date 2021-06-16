@@ -1,6 +1,10 @@
 import React from "react";
 
-const Input: React.FC = () => {
-  return <div></div>;
+export type InputProps = {
+  label?: string;
+};
+
+const Input: React.FC<InputProps> = ({ label }) => {
+  return <input />;
 };
 export default Input;
