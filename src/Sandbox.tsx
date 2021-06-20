@@ -8,12 +8,15 @@ const Sandbox: React.FC = () => {
       <div style={{ display: "flex", gap: "100px" }}>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <h1>Buttons</h1>
-          <Button type="accent" size="lg" />
+          <Button type="accent" size="lg">
+            Button
+          </Button>
+          <Button type="primary">Button</Button>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <h1>Form</h1>
           <h2>Input</h2>
-          <Input />
+          <Input value="Input" />
         </div>
       </div>
     </div>

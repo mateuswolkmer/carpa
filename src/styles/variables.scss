@@ -1,8 +1,36 @@
 :root {
-  /** main colors */
-  --carpa-color-primary: #b99cc5;
-  /** utility colors */
-  --carpa-color-background: #ffffff;
-  --carpa-color-text: #000000;
+  /** COLORS ******************************/
+  /** theme */
+  --color-primary: hsl(184, 100%, 35%);
+  --color-secondary: hsl(29, 51%, 67%);
+  --color-accent: hsl(325, 52%, 66%);
+
+  /** utility */
+  --color-info: hsl(222, 45%, 53%);
+  --color-success: hsl(161, 100%, 34%);
+  --color-warning: hsl(41, 96%, 65%);
+  --color-danger: hsl(357, 82%, 66%);
+
+  /** neutral */
+  --color-neutral-0: hsl(0, 0%, 100%);
+  --color-neutral-1: hsl(0, 0%, 90%);
+  --color-neutral-2: hsl(0, 0%, 80%);
+  --color-neutral-3: hsl(0, 0%, 70%);
+  --color-neutral-4: hsl(0, 0%, 60%);
+  --color-neutral-5: hsl(0, 0%, 50%);
+  --color-neutral-6: hsl(0, 0%, 40%);
+  --color-neutral-7: hsl(0, 0%, 30%);
+  --color-neutral-8: hsl(0, 0%, 20%);
+  --color-neutral-9: hsl(0, 0%, 10%);
+  --color-neutral-10: hsl(0, 0%, 0%);
+
   /** tokens (sizes, spaces) */
+}
+
+body {
+  --body-color-background: var(--color-neutral-1);
+  --body-color-text: var(--color-neutral-9);
+
+  background-color: var(--body-color-background);
+  color: var(--body-color-text);
 }

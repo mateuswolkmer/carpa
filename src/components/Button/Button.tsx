@@ -10,9 +10,9 @@ export type ButtonProps = {
 const Button: React.FC<ButtonProps> = ({ children, size, type }) => {
   return (
     <button
-      className={classNames("carpa-button", {
-        [`carpa-button__type-${type}`]: type,
-        [`carpa-button__size-${size}`]: size,
+      className={classNames("button", {
+        [`button--${type}`]: type,
+        [`button--${size}`]: size,
       })}
     >
       {children}
